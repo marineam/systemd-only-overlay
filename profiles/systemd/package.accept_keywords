@@ -1,0 +1,4 @@
+sys-apps/systemd                ~amd64 ~x86
+sys-apps/systemd-ui             ~amd64 ~x86
+sys-apps/systemd-sysv-utils     ~amd64 ~x86
+sys-apps/efunctions             ~amd64 ~x86
