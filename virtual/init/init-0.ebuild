@@ -13,7 +13,7 @@ IUSE=""
 
 RDEPEND="!prefix? (
 	kernel_linux? ( || ( >=sys-apps/sysvinit-2.86-r6
-						 sys-apps/systemd
+						 sys-apps/systemd-sysv-utils
 						 sys-process/runit ) )
 	kernel_FreeBSD? ( sys-freebsd/freebsd-sbin )
 	)"
