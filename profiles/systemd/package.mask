@@ -1,2 +1,3 @@
+# Mask sysvinit+openrc in favor of systemd
 sys-apps/sysvinit
 sys-apps/openrc
