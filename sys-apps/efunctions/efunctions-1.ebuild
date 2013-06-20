@@ -3,7 +3,7 @@
 # $Header: $
 
 EAPI=5
-inherit vcs-snapshot
+inherit multilib vcs-snapshot
 
 DESCRIPTION="Stand-alone and portable version of Gentoo's functions.sh"
 HOMEPAGE="https://github.com/marcusatbang/efunctions"
@@ -20,10 +20,11 @@ IUSE=""
 
 DEPEND=""
 RDEPEND="!sys-apps/openrc
-	!<sys-apps/baselayout-2.0"
+	!<sys-apps/baselayout-2.0
+	"
 
 src_install() {
-    local dst_dir=/usr/lib/${PN}
+	local dst_dir=/usr/$(get_libdir)/${PN}
 
 	dodir etc/init.d
 	dosym ../..${dst_dir}/functions.sh /etc/init.d/functions.sh
