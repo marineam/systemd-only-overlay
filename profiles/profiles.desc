@@ -1,3 +1,4 @@
 amd64   systemd/amd64/13.0                  dev
 amd64   systemd/amd64/13.0/desktop          dev
 amd64   systemd/amd64/13.0/desktop/gnome    dev
+amd64   systemd/amd64/hardened              dev
