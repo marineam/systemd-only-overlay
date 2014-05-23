@@ -1,0 +1,13 @@
+<repositories version="1.0">
+  <repo quality="experimental" status="unofficial">
+    <name>systemd-only</name>
+    <description lang="en">Systemd only overlay</description>
+    <homepage>https://github.com/marineam/systemd-only-overlay</homepage>
+    <owner type="person">
+      <email>mike@marineau.org</email>
+      <name>Michael Marineau</name>
+    </owner>
+    <source type="git">git://github.com/marineam/systemd-only-overlay.git</source>
+    <feed>https://github.com/marineam/systemd-only-overlay/commits/master.atom</feed>
+  </repo>
+</repositories>
